@@ -39,7 +39,7 @@ double exponential(double, int);
 int main(int argc, char **argv) {
 
   if (argc != 3) {
-    dprintf(2, "Wrong Usage: <./solution09> <x> <N>\n");
+    dprintf(2, "Wrong Usage: <./taylor> <x> <N>\n");
     exit(EXIT_FAILURE);
   }
   double x = (double)strtod(argv[1], NULL);
