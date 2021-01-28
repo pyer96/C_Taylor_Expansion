@@ -14,11 +14,11 @@
  *	received from all its children and display the total on STDOUT.
  *
  *	Usage:
- *		<./solution09> <x> <N>
+ *		<./taylor> <x> <N>
  *	
  *	
  *	Compile:
- *		gcc solution09.c -o solution09 -Wall -Werror -fsanitize=leak
+ *		gcc taylor.c -o taylor -Wall -Werror -fsanitize=leak
  *
  *#################################################################################
  */
